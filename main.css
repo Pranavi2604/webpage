@@ -1,0 +1,44 @@
+body{
+margin:0px;
+}
+.start{
+margin:0px;
+background-color:rgba(33,58,124);
+}
+.op{
+padding:40px;
+text-align:center;
+}
+.op1{
+padding-left:40px;
+padding-right:40px;
+}
+.opi{
+padding:2px;
+border-width:3px;
+border-style:groove;
+border-radius:5px
+}
+a{
+text-decoration:none;
+color:black
+}
+.end .endleft div {
+float:left;
+}
+
+.endl{
+padding:40px 10px;
+}
+#endimg{
+    padding:10px
+}
+.end .endright a{
+    float:right;
+    padding:30px 10px
+}
+#f{
+    position:relative;
+    top: 100px;
+    text-align:center
+}

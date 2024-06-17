@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.forml{
+position:relative;
+top:100px;
+left:500px;
+border:5px dotted black; 
+width:400px;
+padding:20px
+}
+</style>
+</head>
+<body>
+<div  class="forml">
+<form >
+<label>Enter your name:</label><input type="text"><br><br>
+<label>Title:</label><br>
+<input type="radio" name="title" required><label>Mr</label><br>
+<input type="radio" name="title"><label>Mrs</label><br>
+<input type="radio" name="title"><label>Miss</label><br><br>
+<label>Country:</label>
+<select>
+    <option value="USA">United States</option>
+    <option value="CAN">Canada</option>
+    <option value="IND">India</option>
+    <option value="UK">United Kingdom</option>
+</select><br><br>
+<label>Phone number :</label><input type="tel" pattern="\+[0-9]{1,3}-[0-9]{8,12}"><br><br>
+<lable>email id:</label><input type="email"><br><br>
+<lable>Issue: </lable><select>
+<option>Movie tickets</option>
+<option>Disney parks</option>
+<option>Shoping</option>
+<option>others</option>
+</select><br><br>
+<lable>Brief your issue:</lable><br>
+<textarea rows="4" cols="50"></textarea><br><br>
+<input type="submit" >
+</form>
+</div>
+</body>
+</html>
